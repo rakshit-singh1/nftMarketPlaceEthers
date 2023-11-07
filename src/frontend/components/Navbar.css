@@ -1,0 +1,52 @@
+/* Navbar.css */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Style the Navbar */
+.navbar {
+    background-color: #292b2c; /* Dark background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 10px 0;
+}
+
+/* Style the Navbar brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff; /* Brand text color */
+}
+
+/* Style the navigation links */
+.nav-link {
+    font-size: 18px;
+    color: #fff; /* Link text color */
+    margin-right: 20px; /* Add spacing between links */
+}
+
+/* Style the Connect Wallet button */
+.Button {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Increase the padding to make the button larger */
+    font-size: 16px; /* Font size for the button text */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add smooth hover transition */
+}
+
+/* Style the button on hover */
+.Button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+    color: #fff; /* Button text color on hover */
+}
+
+/* Style the button on focus (for accessibility) */
+.Button:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a focus box shadow */
+}
